@@ -1,0 +1,43 @@
+header {
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 20px;
+  margin: 0 auto;
+}
+
+.header-menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 15px;
+  justify-content: center;
+}
+
+.header-menu a {
+  font-size: 1.25rem;
+  line-height: 1.3rem;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #141414;
+  display: block;
+}
+
+.ferminino {
+  background-color: deeppink;
+  border-radius: 6px;
+}
+
+.masculino {
+  background-color: lightskyblue;
+  border-radius: 6px;
+}
+
+@media (max-width: 700px) {
+  .header {
+    flex-direction: column;
+    gap: 40px;
+    padding: 20px;
+  }
+}
